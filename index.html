@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>0965690789_Thợ thông tắc bể phốt</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style1.css" rel="stylesheet">
+
+    <!-- banner -->
+    <link href="css/bannerchay.css" rel="stylesheet">
+    <!-- <link href="css/demo.css" rel="stylesheet">
+    <link href="css/style5.css" rel="stylesheet"> -->
+
+
+
+</head>
+<style>
+    #tnContact {
+        max-width: 230px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 3%;
+        left: 2%;
+        top: 65%;
+        z-index: 9999;
+    }
+
+    #tnContact li {
+        list-style-type: none;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        margin-bottom: 10px;
+        white-space: nowrap;
+    }
+
+    #tnContact li a {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 15px;
+        text-align: center;
+        border-radius: 99px;
+    }
+
+    #tnContact li a i {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    #tnContact li .iconzalo img {
+        width: 24px;
+        height: 24px;
+        vertical-align: middle;
+    }
+
+    #tnContact li .label {
+        position: relative;
+        visibility: hidden;
+        cursor: pointer;
+        color: #fff;
+        padding: 6px 10px;
+        border-radius: 0 99px 100px 0;
+    }
+
+    #tnContact li .label:before {
+        content: "";
+        top: 0;
+        left: -15px;
+        position: absolute;
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 15px solid transparent;
+        border-right: 15px solid #189eff;
+        border-bottom: 15px solid transparent;
+    }
+
+    #tnContact li:hover .label {
+        visibility: visible;
+    }
+
+    /* Background Icon & Label */
+    .iconfb,
+    .label.fb {
+        background: #3b5999
+    }
+
+    .iconzalo,
+    .label.zalo {
+        background: #008df2
+    }
+
+    .iconsms,
+    .label.sms {
+        background: #00c300;
+    }
+
+    .iconcall,
+    .label.call {
+        background: #e84b4b
+    }
+
+    .fb.label:before {
+        border-right-color: #3b5999 !important
+    }
+
+    .zalo.label:before {
+        border-right-color: #008df2 !important
+    }
+
+    .sms.label:before {
+        border-right-color: #00c300 !important
+    }
+
+    .call.label:before {
+        border-right-color: #e84b4b !important
+    }
+</style>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Đang load...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="m-0">Công Ty Vệ Sinh Môi Trường Hải Dương</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Trang chủ</a>
+                        <a href="index.html" class="nav-item nav-link">Giới thiệu</a>
+                        <a href="index.html" class="nav-item nav-link">Dịch vụ</a>
+                        <div class="nav-item dropdown">
+
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Liên hệ</a>
+                    </div>
+                    <!-- <a href="" class="btn btn-light rounded-pill text-primary py-2 px-4 ms-lg-5">Free Quote</a> -->
+                </div>
+            </nav>
+
+            <div class="container-xxl bg-primary hero-header" style="padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="text-white mb-4 animated zoomIn">THÔNG TẮC BỂ PHỐT TẠI <br> HẢI DƯƠNG -
+                                0965690789</h1>
+                            <a href=""
+                                class="btn btn-outline-light rounded-pill border-2 py-3 px-5 animated slideInRight">Liên
+                                Hệ - 0965690789</a>
+                        </div>
+                        <!-- <div class="col-lg-6 text-center text-lg-start">
+                            <img class="img-fluid animated zoomIn" src="img/hero1.png" alt="">
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+        <marquee behavior="alternate"
+            style="border:rgb(215, 18, 18) 2px SOLID;height: 50px; font-size: 20px;color: black; ">0965690789_Thợ thông
+            tắc bể phốt Công ty vệ sinh môi trường hải dương</marquee>
+
+
+        <!-- About Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
+                        <img class="img-fluid" src="img/hut-be-phot-tai-gia-loc.jpg">
+                        <p></p>
+                        <img class="img-fluid" src="img/thong-hut-be-phot-tai-chi-linh.jpg">
+
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h2 class="mb-4">Sản phẩm làm sạch có trách nhiệm với môi trường</h2>
+                        <p class="mb-4">Chúng tôi tin rằng một trái đất sạch cũng quan trọng như một ngôi nhà sạch sẽ
+                        </p>
+                        <div class="row g-3 mb-4">
+                            <div class="col-12 d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-user-tie text-white"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <h6>Nơi làm việc</h6>
+                                    <span>Tại Cơ quan quản lý làm sạch, chúng tôi tin tưởng vào việc làm phần việc của
+                                        mình để bảo vệ môi trường. Đó là lý do tại sao chúng tôi, với tư cách là một
+                                        công ty, rất cam kết sử dụng các sản phẩm an toàn cho Trái đất. Cụ thể, mỗi địa
+                                        điểm của chúng tôi sử dụng các sản phẩm làm sạch có trách nhiệm với môi trường
+                                        hoặc bền vững.</span>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-chart-line text-white"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <h6>Thông báo cho khách hàng:</h6>
+                                    <span>Do sự bùng phát gần đây của coronavirus, các địa điểm cơ quan làm sạch tham
+                                        gia sẽ cung cấp cho khách hàng tùy chọn để chất tẩy rửa của họ sử dụng các sản
+                                        phẩm được liệt kê trên Các sản phẩm kháng khuẩn đã đăng ký của EPA để sử dụng
+                                        chống lại coronavirus mới.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="">Đọc thêm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Newsletter Start -->
+
+        <!-- Newsletter End -->
+
+
+        <!-- Service Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <div class="d-inline-block border rounded-pill text-primary px-4 mb-3"></div>
+                    <h2 class="mb-5">Sự hài lòng được đảm bảo
+                    </h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded h-100">
+                            <div class="d-flex justify-content-between">
+                                <div class="service-icon">
+                                    <i class="fa fa-user-tie fa-2x"></i>
+                                </div>
+                                <a class="service-btn" href="">
+                                    <i class="fa fa-link fa-2x"></i>
+                                </a>
+                            </div>
+                            <div class="p-5">
+                                <h5 class="mb-3">Chúng tôi đối xử với ngôi nhà của bạn như nhà của chúng tôi</h5>
+                                <span>Chúng tôi đối xử với ngôi nhà của bạn như nhà của chúng tôi.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded h-100">
+                            <div class="d-flex justify-content-between">
+                                <div class="service-icon">
+                                    <i class="fa fa-chart-pie fa-2x"></i>
+                                </div>
+                                <a class="service-btn" href="">
+                                    <i class="fa fa-link fa-2x"></i>
+                                </a>
+                            </div>
+                            <div class="p-5">
+                                <h5 class="mb-3">Báo giá trực tuyến ngay lập tức, chính xác</h5>
+                                <span>Báo giá trực tuyến ngay lập tức, chính xác.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item rounded h-100">
+                            <div class="d-flex justify-content-between">
+                                <div class="service-icon">
+                                    <i class="fa fa-chart-line fa-2x"></i>
+                                </div>
+                                <a class="service-btn" href="">
+                                    <i class="fa fa-link fa-2x"></i>
+                                </a>
+                            </div>
+                            <div class="p-5">
+                                <h5 class="mb-3">Chúng tôi được liên kết và bảo hiểm đầy đủ</h5>
+                                <span>Tại Cơ quan Vệ sinh, chúng tôi được liên kết và bảo hiểm đầy đủ, có nghĩa là bạn
+                                    có thể yên tâm khi chúng tôi vào nhà của bạn.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded h-100">
+                            <div class="d-flex justify-content-between">
+                                <div class="service-icon">
+                                    <i class="fa fa-chart-area fa-2x"></i>
+                                </div>
+                                <a class="service-btn" href="">
+                                    <i class="fa fa-link fa-2x"></i>
+                                </a>
+                            </div>
+                            <div class="p-5">
+                                <h5 class="mb-3">Niềm đam mê của chúng tôi đối với môi trường.</h5>
+                                <span>Niềm đam mê của chúng tôi đối với môi trường.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded h-100">
+                            <div class="d-flex justify-content-between">
+                                <div class="service-icon">
+                                    <i class="fa fa-balance-scale fa-2x"></i>
+                                </div>
+                                <a class="service-btn" href="">
+                                    <i class="fa fa-link fa-2x"></i>
+                                </a>
+                            </div>
+                            <div class="p-5">
+                                <h5 class="mb-3">Tại sao chọn chúng tôi</h5>
+                                <span>Niềm đam mê của chúng tôi đối với môi trường.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item rounded h-100">
+                            <div class="d-flex justify-content-between">
+                                <div class="service-icon">
+                                    <i class="fa fa-house-damage fa-2x"></i>
+                                </div>
+                                <a class="service-btn" href="">
+                                    <i class="fa fa-link fa-2x"></i>
+                                </a>
+                            </div>
+                            <div class="p-5">
+                                <h5 class="mb-3">Nhận ước tính miễn phí</h5>
+                                <span>Tiết kiệm thời gian . Tiết kiệm tiền</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <marquee direction="left" style="background:orange;height: 50px; font-size: 20px;">DỊCH VỤ THÔNG TẮC BỂ PHỐT</marquee> -->
+        <!-- Service End -->
+
+
+        <!-- Features Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="d-inline-block border rounded-pill text-primary px-4 mb-3"></div>
+                        <h2 class="mb-4">Tại sao nên chọn dịch vụ thông hút bể phốt tại Hải Dương
+                        </h2>
+                        <p>Trên thị trường hiện nay có khá nhiều các đơn vị cung cấp dịch vụ thông hút bể phốt khác
+                            nhau. Nhưng câu hỏi đặt ra ở đây là: Tại sao dịch vụ thông hút bể phốt tại Hải Dương của
+                            Công ty lại luôn luôn là sự lựa chọn hàng đầu của hầu hết mọi gia đình?</p>
+                        <p>Tại sao hút bể phốt lại nhanh chóng trở thành người bạn thân thiết và tin tưởng của mọi khách
+                            hàng trên toàn TP Hải Dương?</p>
+                            <img class="img-fluid" src="img/02-35.jpg">
+
+                        <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="">Đọc thêm</a>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row g-5">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                        <i class="fa fa-cubes text-white"></i>
+                                    </div>
+                                    <h6 class="mb-0">Tiếp nhận và xử lý được mọi tình huống về hút bể phốt tại Hải Dương
+                                    </h6>
+                                </div>
+                                <span>Với sự phát triển mạnh mẽ của xã hội, nhu cầu sử dụng các công trình vệ sinh tự
+                                    hoại cũng dần trở thành một phần thiết yếu trong cuộc sống. Từ các hộ gia đình nhỏ,
+                                    các căn biệt thự lớn. Đến các khu công nghiệp,</span>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                        <i class="fa fa-percent text-white"></i>
+                                    </div>
+                                    <h6 class="mb-0">Sử dụng công nghệ hút bể phốt hiện đại</h6>
+                                </div>
+                                <span>Nếu như bạn đang có nhu cầu đi tìm kiếm một đơn vị thông hút bể phốt tại Hải Dương
+                                    chuyên nghiệp. Với các thiết bị xử lý nhanh chóng, hiện đại và sạch sẽ nhất. Thì
+                                    Công ty hút bể phốt Hải Dương chắc chắn là sự lựa chọn lý tửng cho nhu cầu này của
+                                    bạn</span>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                        <i class="fa fa-award text-white"></i>
+                                    </div>
+                                    <h6 class="mb-0">Cam kết giá hút bể phốt tại Hải Dương rẻ ưu đãi</h6>
+                                </div>
+                                <span>Có thể bạn đang nghĩ rằng dịch vụ thông hút hiện đại như vậy, chắc sẽ có giá thành
+                                    đắt đỏ hơn. Nhưng không, đừng lo lắng. Bởi phương châm làm việc là mang lại cho
+                                    khách hàng sự thoải mái và hài lòng nhất khi sử dụng dịch vụ của chúng tôi.</span>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                        <i class="fa fa-smile-beam text-white"></i>
+                                    </div>
+                                    <h6 class="mb-0"> Nhận thông hút bể phốt tại Hải Dương 24/24</h6>
+                                </div>
+                                <span>Tồn tại và phát triển mạnh mẽ triển thị trường hiện nay nhờ tiêu chí “Bất cứ nào
+                                    cần, Hải dương luôn có mặt”. Bởi chúng tôi hiểu được tâm lý người tiêu dùng rằng sự
+                                    cố về bể phốt đầy có thể xảy ra bất cứ lúc nào. Và nếu không được xử lý ngay.
+                                </span>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                        <i class="fa fa-user-tie text-white"></i>
+                                    </div>
+                                    <h6 class="mb-0">Quy trình hút bể phốt tại Hải Dương
+                                    </h6>
+                                </div>
+                                <span>Là một trong những đơn vị thông hút bể phốt hàng đầu tại Hải Dương hiện nay. Nên
+                                    chúng ta hạn chế và loại bỏ tối đa các thủ tục rườm rà bao quanh. Nhằm mang đến cho
+                                    khách hàng những dịch vụ thông hút nhanh chóng và hiệu quả nhất</span>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.6s">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                        <i class="fa fa-headset text-white"></i>
+                                    </div>
+                                    <h6 class="mb-0">Thông hút tại mọi địa bàn</h6>
+                                </div>
+                                <span> nhận thi công thông tắc – hút bể phốt cho mọi loại công trình lớn nhỏ. Phục vụ
+                                    với tất cả mọi địa bàn quận – huyện – TP tại Hưng Yên – Hải Dương – Thái Bình</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+<hr style="margin-left: 10%; margin-right: 10%;">
+
+        <!-- Client Start -->
+          
+            <section>
+                <div>
+                    <div id="ad-1">
+                        <div id="content">
+                            <h2>Bạn muốn tìm Công ty bể phốt uy tín?</h2>
+                            <h3>Liên
+                                Hệ - 0965690789.</h3>
+                         
+                        </div>
+
+                        <!-- <div>
+                            <img class="img-fluid" src="img/hut-be-phot-tai-thanh-mien.jpg">
+
+                        </div> -->
+                        <div id="clouds">
+                            <ul id="cloud-group-1">
+                                <li class="cloud-1"></li>
+                                <li class="cloud-2"></li>
+                                <li class="cloud-3"></li>
+                            </ul>
+                            <ul id="cloud-group-2">
+                                <li class="cloud-1"></li>
+                                <li class="cloud-2"></li>
+                                <li class="cloud-3"></li>
+                            </ul>
+                        </div>
+                        <ul id="boat">
+                            <li>
+                                <div id="question-mark"></div>
+                            </li>
+                        </ul>
+                        <ul id="water">
+                            <li id="water-back"></li>
+                            <li id="water-front"></li>
+                        </ul>
+                    </div>
+                    <img style="margin-left: 2%;     margin-left: 2%;
+                    margin-top: 40px;
+                    height: 302px;width:520px" class="img-fluid" src="img/hut-be-phot-tai-thanh-mien.jpg">
+
+                </div>        
+            </section>
+        <!-- Client End -->
+    </div>
+    <p></p>
+    <p></p>
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-6" style="margin-top:3%">
+            <div class="container">
+                <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <div class="d-inline-block border rounded-pill text-primary px-4 mb-3"></div>
+                    <h2 class="mb-5">Các địa chỉ cơ sở</h2>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Số 50 phố Nguyễn Chí Thanh, Phường Tân Bình, TP Hải Dương, Tỉnh Hải Dương </p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Cơ sở 1:</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Số 20/2 khu A2 Bình Minh, P Phạm Ngũ Lão, TP Hải Dương</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Cơ sở 2: </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Thôn Châu Quan, xã Đoàn Kết, Huyện Thanh Miện, Tỉnh Hải Dương </p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Cơ sở 3</h6>
+                                <!-- <small>Profession</small> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Xã Phúc Thành, huyện Kim Thành, Hải Dương </p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Cơ sở 4</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Thôn Thọ Xương, Xã Đức Xương, Huyện Gia Lộc, Tỉnh Hải Dương </p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Cơ sở 5</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Thị trấn Cẩm Giàng huyện Cẩm Giàng tỉnh Hải Dương </p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Cơ sở 6</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Thị trấn Kinh Môn huyện Kinh Môn, Tỉnh Hải Dương </p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Cơ sở 7 </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Bình Minh huyện Bình Giang, Tỉnh Hải Dương </p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Cơ sở 8</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Thị trấn Nam Sách huyện Nam Sách, Tỉnh Hải Dương Cơ sở </p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Cơ sở 9</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>BThị trấn Ninh Giang huyện Ninh Giang, Tỉnh Hải Dương </p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Cơ sở 10</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+        <!-- Team Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <div class="d-inline-block border rounded-pill text-primary px-4 mb-3"></div>
+                    <h2 class="mb-5">Thành viên công ty</h2>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item">
+                    <h5>Tên </h5>
+                    <p class="mb-4">chức vụ</p>
+                    <img class="img-fluid rounded-circle w-100 mb-4" src="img/team-3.jpg" alt="">
+                    <div class="d-flex justify-content-center">
+                        <a class="btn btn-square text-primary bg-white m-1" href=""><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square text-primary bg-white m-1" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s"
+        style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="text-white mb-4">Get In Touch</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="text-white mb-4">Các câu hỏi</h5>
+                    <a class="btn btn-link" href="">Địa chỉ </a>
+                    <a class="btn btn-link" href="">Liên hệ</a>
+                    <a class="btn btn-link" href="">Các dịch vụ </a>
+                    <a class="btn btn-link" href="">Thành viên công ty</a>
+                    <a class="btn btn-link" href="">Các câu hỏi khác</a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="text-white mb-4">Cách liên lạc</h5>
+                    <a class="btn btn-link" href="">FaceBook</a>
+                    <a class="btn btn-link" href="">Website</a>
+                    <a class="btn btn-link" href="">Zalo</a>
+                    <a class="btn btn-link" href="">Bảo hành</a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="text-white mb-4">Gửi thông tin cho chúng tôi</h5>
+                    <p>liên hệ trực tiếp với chúng tôi qua SĐT 0965690789</p>
+                    <div class="position-relative w-100 mt-3">
+                        <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text"
+                            placeholder="Your Email" style="height: 48px;">
+                        <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
+                                class="fa fa-paper-plane text-primary fs-4"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Web được thiết kế bởi</a>
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                         <a class="border-bottom" href="https://htmlcodex.com">Code_Ptr and LNsto </a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Trang chủ</a>
+                            <a href="">Blog</a>
+                            <a href="">Liên hệ</a>
+                            <a href="">Câu hỏi liên quan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <ul id="tnContact">
+        <li>
+            <a href="tel:0965690789" class="iconcall">
+                <i class="fas fa-phone"></i>
+            </a>
+            <span class="label call">Điện thoại: 0965690789</span>
+        </li>
+        <li>
+            <a href="https://messenger.com/t/temnerhome" class="iconfb" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <span class="label fb">Chat Facebook</span>
+        </li>
+        <li>
+            <a href="https://zalo.me/0907701772" class="iconzalo" target="_blanl">
+                <img src="https://webvina.net/wp-content/uploads/2021/07/icon_zalomessage.png" alt="">
+            </a>
+            <span class="label zalo">Nhắn tin zalo</span>
+        </li>
+        <li>
+            <a href="sms:0965690789" class="iconsms">
+                <i class="fas fa-sms"></i>
+            </a>
+            <span class="label sms">Nhắn tin điện thoại</span>
+        </li>
+
+    </ul>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
